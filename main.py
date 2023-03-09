@@ -1,42 +1,34 @@
 from abc import ABC, abstractclassmethod
 
-# classe abstrata que define um metodo abstrato a ser implementado
 class Pessoa(ABC):
     @abstractclassmethod
     def relacao_com_fatec(self):
         pass
 
-# subclasse de Pessoa
 class Aluno(Pessoa):
     def relacao_com_fatec(self):
         return "Aluno"
 
-# subclasse de Pessoa
 class Professor(Pessoa):
     def relacao_com_fatec(self):
         return "Professor"
 
-# subclasse de Pessoa
 class Coordenador(Pessoa):
     def relacao_com_fatec(self):
         return "Coordenador"
-
-# subclasse de Pessoa
+    
 class Diretor(Pessoa):
     def relacao_com_fatec(self):
         return "Diretor"
 
-# subclasse de Pessoa
 class Administrativo(Pessoa):
     def relacao_com_fatec(self):
         return "Administrativo"
-
-# subclasse de Pessoa
+    
 class Vestibulando(Pessoa):
     def relacao_com_fatec(self):
         return "Vestibulando"
 
-# classe Factory Method
 class PessoaFactory:
  
     
