@@ -1,7 +1,7 @@
-Fatec Diadema
-Desenvolvimento de Software Multiplataforma - 3º Semestre
-Matéria: Tecnicas de Programação II
-Professor: Vinicius Heltai
+Fatec Diadema <br>
+Desenvolvimento de Software Multiplataforma - 3º Semestre<br>
+Matéria: Tecnicas de Programação II<br>
+Professor: Vinicius Heltai<br>
 
 Alunos: <p>Daniel Irineu</p>
         <p>Níkolas Yan de Oliveira Costa</p>
